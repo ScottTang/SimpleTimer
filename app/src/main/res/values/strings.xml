@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleTimer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="course_list_title">课程列表</string>
+    <string name="course_create_title">创建课程</string>
+    <string name="task_list_title">项目列表</string>
+    <string name="task_create_title">创建项目</string>
+
+</resources>
