@@ -10,7 +10,7 @@ import androidx.room.*
 @Dao
 interface TaskDao {
     @Query("SELECT * FROM tasks")
-    fun getTasks(): LiveData<LiveData<Task>>
+    fun getTasks(): LiveData<List<Task>>
 
     @Query("SELECT * FROM tasks WHERE id = :id")
     fun getTaskForId(id: Long): LiveData<Task>

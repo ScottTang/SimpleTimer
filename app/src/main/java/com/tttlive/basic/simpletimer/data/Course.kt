@@ -15,5 +15,5 @@ data class Course(
 ) {
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    val courseId: Long = 0
+    var courseId: Long = 0
 }
